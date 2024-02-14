@@ -1,0 +1,10 @@
+{
+    "module_name": "llm-translate-polymind",
+    "name": "translate",
+    "description": "This function requests a translation between two languages, and should only be selected when a translation is needed.",
+    "params": {
+        "text": "The text string to be translated.",
+        "source_lang": "The language of the text string, fully written out, no abbreviations (i.e. 'english').",
+        "target_lang": "The target language to be translated to, fully written out, no abbreviations (i.e. 'japanese')."
+    }
+}
